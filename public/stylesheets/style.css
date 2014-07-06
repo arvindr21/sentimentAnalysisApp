@@ -1,0 +1,61 @@
+body {
+  padding: 50px;
+  font: 14px"Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #eee;
+}
+a {
+  color: #00B7FF;
+}
+input {
+  width: 98%;
+  padding: 9px;
+  font-size: 17px;
+}
+.results {
+  display: none;
+}
+.error {
+  color: red;
+  display: none;
+}
+.tweet-results {
+  width: 100%;
+  overflow: hidden;
+  padding-right: 18px;
+}
+.left {
+  float: left;
+  width: 39%;
+}
+.right {
+  float: right;
+  width: 55%;
+  border-left: 1px dashed;
+  padding-left: 21px;
+}
+article {
+  background: #fff;
+  display: block;
+  padding: 18px;
+  border: 1px solid #eee;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  overflow: hidden;
+  box-shadow: 6px 4px 9px 1px rgba(119, 119, 119, 0.75);
+  -moz-box-shadow: 6px 4px 9px 1px rgba(119, 119, 119, 0.75);
+  -webkit-box-shadow: 6px 4px 9px 1px rgba(119, 119, 119, 0.75);
+}
+article img {
+  width: 64px;
+  float: left;
+  margin:0 5px 0 0;
+}
+.right table {
+  width: 100%;
+}
+.right table, .right table td {
+  border: 1px solid;
+}
+.right table td {
+  width: 50%;
+}
